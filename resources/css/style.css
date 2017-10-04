@@ -30,8 +30,8 @@ header .container {
   vertical-align: middle;
 }
 .container img {
-  height: 1.5em;
-  padding-right: 15px;
+  height: 1.5rem;
+  padding-right: 1rem;
 }
 
 .container {
@@ -57,7 +57,6 @@ header h4, .new-arrival h4 {
   background-size: cover;
   background-position: left;
   display: flex;
-  vertical-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -65,21 +64,24 @@ header h4, .new-arrival h4 {
 .new-arrival {
   height: 50%;
   background-color: black;
-  padding: 1.5em 3em 1.5em 3em;
-  max-width: 25em;
+  width: 24rem;
 }
 
 .new-arrival h1 {
-  font-size: 2.25em;
+  font-size: 2rem;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 2em;
+  padding: 0rem 0rem 2rem 3rem;
+  line-height: 2.25rem;
 }
 
 .new-arrival h4 {
-  padding: 1.5em 0em;
-  line-height: 1.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2rem 0rem .25rem 3rem;
+  line-height: 1em;
 }
 
 .box {
@@ -90,7 +92,7 @@ header h4, .new-arrival h4 {
 nav {
   width: 100%;
   background-color: firebrick;
-  height: 3em;
+  height: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +120,7 @@ nav a {
   flex-grow: 1;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-top: 50px;
+  padding-top: 3rem;
 }
 
 .items {
@@ -134,19 +136,21 @@ nav a {
 }
 
 .item {
-  border: 3px solid black;
+  border: 4px solid black;
+  width: 30%;
+  display: flex;
 }
 
 .item-image {
-  width: 275px;
-  height: 275px;
+  width: 13rem;
+  height: 13rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .item-image img {
-  width: 70%;
+  width: 9rem;
 }
 
 .item-description {
