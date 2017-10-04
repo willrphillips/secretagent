@@ -1,9 +1,9 @@
-html {
+  html {
   font-family: helvetica, arial, sans-serif;
   font-size: 18px;
   text-align: center;
 }
-
+/**/
 div, nav, nav li, nav ul, .description {
   border: 1px solid gray;
 }
@@ -109,9 +109,69 @@ nav a {
 }
 
 .container2 {
-  max-width: 960px;
-  display: block;
+  width: 100%;
+  display: flex;
   text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.items {
+  width: 100%;
+  max-width: 960px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.items {
+
+}
+
+.item {
+  border: 3px solid black;
+}
+
+.item-image {
+  width: 275px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-image img {
+  width: 70%;
+}
+
+.item-description {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+}
+
+.info-box {
+  width: 350px;
+  text-align: left;
+}
+
+.info-box h5 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+
 }
 
 /*One more time. Didn't commit*/
