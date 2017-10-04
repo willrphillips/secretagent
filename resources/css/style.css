@@ -3,10 +3,11 @@
   font-size: 18px;
   text-align: center;
 }
-/**/
-div, nav, nav li, nav ul, .description {
+/* coding for borders around every object
+div, nav, nav li, nav ul, .description footer {
   border: 1px solid gray;
 }
+*/
 
 header, .container, nav, .hero {
   text-align: left;
@@ -160,6 +161,7 @@ nav a {
   justify-content: space-between;
   width: 100%;
   max-width: 960px;
+  margin-bottom: 75px;
 }
 
 .info-box {
@@ -170,8 +172,29 @@ nav a {
 .info-box h5 {
   color: white;
   background-color: black;
-  padding: 10px;
+  padding: 20px;
+  font-size: 16px;
+}
 
+.info-box p {
+  padding: 18px 0px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: black;
+}
+
+.copyright {
+  width: 100%;
+  max-width: 960px;
+  text-align: left;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.copyright h5 {
+  color: white;
 }
 
 /*One more time. Didn't commit*/
