@@ -97,12 +97,18 @@ nav {
   justify-content: center;
 }
 
-nav ul {
+nav ul, .display-pc {
+  display: flex;
+  max-width: 960px;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.display-tablet container {
   display: flex;
   justify-content: center;
   max-width: 960px;
   flex-grow: 1;
-  justify-content: space-between;
 }
 
 nav a {
@@ -160,7 +166,7 @@ nav a {
   padding: .5rem;
   background-color: black;
   color: white;
-  
+
 }
 
 .info {
@@ -204,4 +210,27 @@ footer {
   font-size: 1rem;
 }
 
-/*One more time. Didn't commit*/
+/*Media Queries*/
+
+@media only screen and (max-width: 1024px) {
+  .items {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: bottom: 1rem;
+  }
+
+  .item {
+    width: 47%;
+    margin-bottom: 1rem;
+  }
+
+  .display-pc {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .display-tablet {
+    display: none;
+  }
+}
